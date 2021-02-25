@@ -1,0 +1,9 @@
+2021-02-25 16:25:42.081 -05:00 [INF] Hello, world!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.ClienteBI.ClienteBI.ConsultarCliente() in C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 26
+2021-02-25 16:25:55.086 -05:00 [INF] Hello, world!
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.ClienteBI.ClienteBI.ConsultarCliente() in C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 26
+2021-02-25 17:24:08.791 -05:00 [ERR] Error encontrado
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.ClienteBI.ClienteBI.ConsultarCliente() in C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 26
