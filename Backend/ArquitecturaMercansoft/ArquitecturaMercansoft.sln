@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquitecturaMercansoft", "ArquitecturaMercansoft\ArquitecturaMercansoft.csproj", "{CC71DF4F-0202-4F68-977A-485C040F618E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArquitecturaMercansoft", "ArquitecturaMercansoft\ArquitecturaMercansoft.csproj", "{CC71DF4F-0202-4F68-977A-485C040F618E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{10DC5DEC-5643-4FEE-89D5-47793D79BB6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{10DC5DEC-5643-4FEE-89D5-47793D79BB6D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservicio1", "Microservicio1", "{68F5BDD0-46D1-4EE5-BF7F-3B7EEFE56709}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservicio2", "Microservicio2", "{E4EB0BC3-342F-4FC7-A645-C44E90B134C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservicioprueba2", "Microservicioprueba2\Microservicioprueba2.csproj", "{995411E9-42F2-46C9-99D4-E2C00E6C2D9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservicioprueba2", "Microservicioprueba2\Microservicioprueba2.csproj", "{995411E9-42F2-46C9-99D4-E2C00E6C2D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7F2E6165-8ED9-4CB7-A78E-CDEBB6AD0F6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7F2E6165-8ED9-4CB7-A78E-CDEBB6AD0F6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parameters", "Parameters\Parameters.csproj", "{BB009C9C-C4E5-468E-B275-A2DDB81EBE03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transversal", "Parameters\Transversal.csproj", "{BB009C9C-C4E5-468E-B275-A2DDB81EBE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seguridad", "Seguridad\Seguridad.csproj", "{4E5E32FC-6908-4C20-A90A-932A715EDE52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{BB009C9C-C4E5-468E-B275-A2DDB81EBE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB009C9C-C4E5-468E-B275-A2DDB81EBE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB009C9C-C4E5-468E-B275-A2DDB81EBE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5E32FC-6908-4C20-A90A-932A715EDE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5E32FC-6908-4C20-A90A-932A715EDE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5E32FC-6908-4C20-A90A-932A715EDE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5E32FC-6908-4C20-A90A-932A715EDE52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{995411E9-42F2-46C9-99D4-E2C00E6C2D9C} = {E4EB0BC3-342F-4FC7-A645-C44E90B134C7}
 		{7F2E6165-8ED9-4CB7-A78E-CDEBB6AD0F6A} = {68F5BDD0-46D1-4EE5-BF7F-3B7EEFE56709}
 		{BB009C9C-C4E5-468E-B275-A2DDB81EBE03} = {68F5BDD0-46D1-4EE5-BF7F-3B7EEFE56709}
+		{4E5E32FC-6908-4C20-A90A-932A715EDE52} = {68F5BDD0-46D1-4EE5-BF7F-3B7EEFE56709}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {459D7D1B-1604-4C57-B63D-A2E0ADD839BC}

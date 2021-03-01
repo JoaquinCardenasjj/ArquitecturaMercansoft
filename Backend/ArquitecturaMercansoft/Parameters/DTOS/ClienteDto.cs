@@ -1,9 +1,9 @@
-﻿using Parameters.Transversal;
+﻿using Transversal.Transversal;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Parameters.DTOS
+namespace Transversal.DTOS
 {
     public class ClienteDTO : BaseOut
     {

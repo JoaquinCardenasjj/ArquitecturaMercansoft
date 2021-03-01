@@ -2303,7 +2303,8 @@
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "MySql.Data.EntityFrameworkCore": "8.0.22"
+          "MySql.Data.EntityFrameworkCore": "8.0.22",
+          "Transversal": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DataAccess.dll": {}
@@ -2312,19 +2313,18 @@
           "bin/placeholder/DataAccess.dll": {}
         }
       },
-      "Parameters/1.0.0": {
+      "Transversal/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "DataAccess": "1.0.0",
           "Serilog": "2.10.0"
         },
         "compile": {
-          "bin/placeholder/Parameters.dll": {}
+          "bin/placeholder/Transversal.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Parameters.dll": {}
+          "bin/placeholder/Transversal.dll": {}
         }
       }
     }
@@ -7932,16 +7932,16 @@
       "path": "../DataAccess/DataAccess.csproj",
       "msbuildProject": "../DataAccess/DataAccess.csproj"
     },
-    "Parameters/1.0.0": {
+    "Transversal/1.0.0": {
       "type": "project",
-      "path": "../Parameters/Parameters.csproj",
-      "msbuildProject": "../Parameters/Parameters.csproj"
+      "path": "../Parameters/Transversal.csproj",
+      "msbuildProject": "../Parameters/Transversal.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "DataAccess >= 1.0.0",
-      "Parameters >= 1.0.0"
+      "Transversal >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7979,8 +7979,8 @@
             "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Parameters.csproj": {
-              "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Parameters.csproj"
+            "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
+              "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj"
             }
           }
         }

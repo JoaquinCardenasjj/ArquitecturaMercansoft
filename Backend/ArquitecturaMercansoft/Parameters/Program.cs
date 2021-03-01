@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Parameters
+namespace Transversal
 {
     class Program
     {

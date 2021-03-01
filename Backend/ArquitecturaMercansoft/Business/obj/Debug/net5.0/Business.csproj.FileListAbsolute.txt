@@ -76,9 +76,6 @@ C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\DataAccess.dll
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
-C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Parameters.exe
-C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Parameters.dll
-C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Parameters.pdb
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
@@ -88,3 +85,6 @@ C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Serilog.dll
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Transversal.dll
+C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Transversal.pdb
+C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\bin\Debug\net5.0\Transversal.exe

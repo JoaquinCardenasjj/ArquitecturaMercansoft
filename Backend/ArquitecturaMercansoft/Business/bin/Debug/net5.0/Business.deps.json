@@ -9,7 +9,7 @@
       "Business/1.0.0": {
         "dependencies": {
           "DataAccess": "1.0.0",
-          "Parameters": "1.0.0"
+          "Transversal": "1.0.0"
         },
         "runtime": {
           "Business.dll": {}
@@ -1625,20 +1625,20 @@
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "MySql.Data.EntityFrameworkCore": "8.0.22"
+          "MySql.Data.EntityFrameworkCore": "8.0.22",
+          "Transversal": "1.0.0"
         },
         "runtime": {
           "DataAccess.dll": {}
         }
       },
-      "Parameters/1.0.0": {
+      "Transversal/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "DataAccess": "1.0.0",
           "Serilog": "2.10.0"
         },
         "runtime": {
-          "Parameters.dll": {}
+          "Transversal.dll": {}
         }
       }
     }
@@ -2620,7 +2620,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Parameters/1.0.0": {
+    "Transversal/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

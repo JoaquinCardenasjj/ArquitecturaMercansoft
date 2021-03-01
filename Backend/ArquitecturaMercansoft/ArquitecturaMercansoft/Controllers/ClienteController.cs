@@ -1,18 +1,23 @@
 ﻿
 using AutoMapper;
 using Business.ClienteBI;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Parameters.DTOS;
+using Transversal.DTOS;
+using Seguridad.Filters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Transversal.Entities;
 
 namespace ArquitecturaMercansoft.Controllers
 {
-    [Route("api/[controller]")]
+
+    [Route("api/[controller]")]    
     [ApiController]
+    [SecurityTokenFilter]
     public class ClienteController : ControllerBase
     {
         IClienteBI _clienteBi;
@@ -21,13 +26,12 @@ namespace ArquitecturaMercansoft.Controllers
         {
             _clienteBi = clienteBI;
             _mapper = mapper;
-        }
-
+        }        
         [HttpGet]
         [Route("consultar")]
         public string ConsultarCliente()
         {
-            var cliente = new DataAccess.Entities.Cliente
+            var cliente = new Cliente
             {
                 IdCliente = 1,
                 Activo = false,
@@ -39,7 +43,7 @@ namespace ArquitecturaMercansoft.Controllers
 
             var model = _mapper.Map<ClienteDTO>(cliente);
 
-            var model2 = _mapper.Map<DataAccess.Entities.Cliente>(model);
+            var model2 = _mapper.Map<Cliente>(model);
             return this._clienteBi.ConsultarCliente();
         }
         [HttpPost]

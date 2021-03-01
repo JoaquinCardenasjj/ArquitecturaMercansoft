@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
-    <ProjectReference Include="..\Parameters\Parameters.csproj" />
+    <ProjectReference Include="..\Parameters\Transversal.csproj" />
   </ItemGroup>
 
 </Project>

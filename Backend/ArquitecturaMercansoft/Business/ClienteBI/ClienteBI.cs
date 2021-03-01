@@ -1,6 +1,6 @@
 ﻿
 using DataAccess.ClienteDAL;
-using Parameters.Logger;
+using Transversal.Logger;
 using System;
 using System.Collections.Generic;
 using System.IO;

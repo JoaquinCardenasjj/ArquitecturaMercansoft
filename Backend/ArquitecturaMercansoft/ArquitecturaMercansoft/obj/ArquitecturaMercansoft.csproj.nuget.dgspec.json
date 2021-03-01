@@ -37,6 +37,9 @@
               },
               "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj"
               }
             }
           }
@@ -121,8 +124,8 @@
               "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Parameters.csproj": {
-                "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Parameters.csproj"
+              "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
+                "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj"
               }
             }
           }
@@ -182,7 +185,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
+                "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -251,12 +258,12 @@
         }
       }
     },
-    "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Parameters.csproj": {
+    "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Parameters.csproj",
-        "projectName": "Parameters",
-        "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Parameters.csproj",
+        "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
+        "projectName": "Transversal",
+        "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
         "packagesPath": "C:\\Users\\jcardenasp\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\obj\\",
         "projectStyle": "PackageReference",
@@ -278,11 +285,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -302,6 +305,78 @@
             "Serilog": {
               "target": "Package",
               "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+        "projectName": "Seguridad",
+        "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+        "packagesPath": "C:\\Users\\jcardenasp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jcardenasp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Business\\Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
             }
           },
           "imports": [

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Parameters.Logger
+namespace Transversal.Logger
 {
     public static class FileLogger
     {

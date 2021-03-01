@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Parameters.Transversal
+namespace Transversal.Transversal
 {
     public enum TipoDocumento
     {

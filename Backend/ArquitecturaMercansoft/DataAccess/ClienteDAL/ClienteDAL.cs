@@ -1,4 +1,4 @@
-﻿using DataAccess.Entities;
+﻿using Transversal.Entities;
 using DataAccess.ModeloDatos;
 
 using System;
