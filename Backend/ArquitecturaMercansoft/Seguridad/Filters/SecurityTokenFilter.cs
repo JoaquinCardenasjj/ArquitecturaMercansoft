@@ -30,7 +30,7 @@ namespace Seguridad.Filters
         public void OnActionExecuting(ActionExecutingContext context)
         {
             Console.WriteLine("Leer token y verificar seguridad");
-            var result = 1;
+            var result = 0;
 
             if (result == 1)
             {

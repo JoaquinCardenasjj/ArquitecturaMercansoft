@@ -7,7 +7,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Transversal.DTOS;
+using Transversal.Transversal;
 
 namespace Business.ClienteBI
 {
@@ -19,29 +20,83 @@ namespace Business.ClienteBI
         {
             this._clienteDal = clienteDAL;
         }
-        public string ConsultarCliente()
+
+        public Response<List<ClienteDTO>> ConsultarCliente(Response<List<ClienteDTO>> response)
         {
             try
             {
-                _clienteDal2.ConsultarCliente();
-            }
-            catch (FileNotFoundException e)
-            {
-                Console.WriteLine($"Excepcion: '{e}'");
+                response.ObjetoResultado = this._clienteDal.ConsultarCliente();
+                response.Exitoso = true;
+                return response;
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Excepcion: '{e}'");
+                response.Mensaje = e.Message;
+                response.Exitoso = false;
+                response.ObjetoResultado = new List<ClienteDTO>();
                 FileLogger.Logger(e);
             }
-           
 
-            return Guid.NewGuid().ToString();
+            return response;
         }
 
-        public bool RegistrarCliente(string Nombre, string Cedula)
+        public RegisterResponse EditarCliente(ClienteDTO input, RegisterResponse response)
         {
-            return this._clienteDal.RegistrarCliente(Nombre, Cedula);
+            try
+            {
+                response.IdResultado = this._clienteDal.EditarCliente(input);
+                response.Exitoso = true;
+                return response;
+            }
+            catch (Exception e)
+            {
+                response.Mensaje = e.Message;
+                response.Exitoso = false;
+                response.IdResultado = null;
+                FileLogger.Logger(e);
+            }
+
+            return response;
         }
+
+        public RegisterResponse EliminarCliente(int idCliente, RegisterResponse response)
+        {
+            try
+            {
+                response.IdResultado = this._clienteDal.EliminarCliente(idCliente);
+                response.Exitoso = true;
+                return response;
+            }
+            catch (Exception e)
+            {
+                response.Mensaje = e.Message;
+                response.Exitoso = false;
+                response.IdResultado = null;
+                FileLogger.Logger(e);
+            }
+
+            return response;
+        }
+
+        public RegisterResponse RegistrarCliente(ClienteDTO input, RegisterResponse response)
+        {            
+            try
+            {                
+                response.IdResultado = this._clienteDal.RegistrarCliente(input);
+                response.Exitoso = true;
+                return response;
+            }
+            catch (Exception e)
+            {
+                response.Mensaje = e.Message;
+                response.Exitoso = false;
+                response.IdResultado = null;
+                FileLogger.Logger(e);
+            }
+
+            return response;
+        }
+
+
     }
 }

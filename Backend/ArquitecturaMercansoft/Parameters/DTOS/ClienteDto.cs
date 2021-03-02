@@ -5,12 +5,12 @@ using System.Text;
 
 namespace Transversal.DTOS
 {
-    public class ClienteDTO : BaseOut
+    public class ClienteDTO
     {
         public ClienteDTO()
         {
         }
-        
+
         public int IdCliente { get; set; }
         public string Nombre { get; set; }
         public int TipoIdentificacion { get; set; }

@@ -45,8 +45,8 @@ namespace ArquitecturaMercansoft
             services.AddTransient<ISeguridadBI, SeguridadBI>();
             services.AddTransient<ISeguridadDAL, SeguridadDAL>();
             services.AddDbContext<arquitecturamercansoft2Context>();
-            services.AddDbContext<ArquitecturaMercansoftContext>();
-
+            services.AddDbContext<ArquitecturaMercansoftContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("ArquitecturaMercansoftDataBase")));
             // Auto Mapper Configurations
             var mapperConfig = new MapperConfiguration(mc =>
             {

@@ -11,11 +11,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Transversal.Entities;
+using Transversal.Transversal;
 
 namespace ArquitecturaMercansoft.Controllers
 {
 
-    [Route("api/[controller]")]    
+    [Route("api/[controller]")]
     [ApiController]
     [SecurityTokenFilter]
     public class ClienteController : ControllerBase
@@ -26,31 +27,39 @@ namespace ArquitecturaMercansoft.Controllers
         {
             _clienteBi = clienteBI;
             _mapper = mapper;
-        }        
+        }
         [HttpGet]
         [Route("consultar")]
-        public string ConsultarCliente()
+        public IActionResult ConsultarCliente()
         {
-            var cliente = new Cliente
-            {
-                IdCliente = 1,
-                Activo = false,
-                Eliminado = true,
-                Identificacion = "349324",
-                Nombre = "Prueba",
-                TipoIdentificacion = 1
-            };
-
-            var model = _mapper.Map<ClienteDTO>(cliente);
-
-            var model2 = _mapper.Map<Cliente>(model);
-            return this._clienteBi.ConsultarCliente();
+            Response<List<ClienteDTO>> response = new Response<List<ClienteDTO>>();
+            response = this._clienteBi.ConsultarCliente(response);
+            return Ok(response);
         }
         [HttpPost]
         [Route("registrar")]
-        public bool ConsultarCliente(string Nombre, string Cedula)
+        public IActionResult RegistrarCliente(ClienteDTO input)
         {
-            return this._clienteBi.RegistrarCliente(Nombre, Cedula);
+            RegisterResponse response = new RegisterResponse();
+            this._clienteBi.RegistrarCliente(input, response);
+            return Ok(response);
+        }
+        [HttpPut]
+        [Route("editar")]
+        public IActionResult EditarCliente(ClienteDTO input)
+        {
+
+            RegisterResponse response = new RegisterResponse();
+            this._clienteBi.EditarCliente(input, response);
+            return Ok(response);
+        }
+        [HttpPost]
+        [Route("eliminar")]
+        public IActionResult EliminarCliente(int idCliente)
+        {
+            RegisterResponse response = new RegisterResponse();
+            this._clienteBi.EliminarCliente(idCliente, response);
+            return Ok(response);
         }
     }
 }

@@ -14,6 +14,7 @@ namespace DataAccess.ModeloDatosCodeFirst
         public ArquitecturaMercansoftContext(DbContextOptions<ArquitecturaMercansoftContext> options)
             : base(options)
         {
+
         }
 
         public virtual DbSet<Cliente> Clientes { get; set; }

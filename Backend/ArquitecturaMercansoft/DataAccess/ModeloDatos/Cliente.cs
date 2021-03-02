@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace DataAccess.ModeloDatos
 {
-    public partial class Cliente
+    public partial class Cliente2
     {
         public int IdCliente { get; set; }
         public string Nombre { get; set; }

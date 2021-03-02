@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transversal", "Parameters\T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seguridad", "Seguridad\Seguridad.csproj", "{4E5E32FC-6908-4C20-A90A-932A715EDE52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquitecturaMercansoftUnitTest", "ArquitecturaMercansoftUnitTest\ArquitecturaMercansoftUnitTest.csproj", "{847A2863-CD2C-4DE0-892C-1DAB0ECFBDE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{4E5E32FC-6908-4C20-A90A-932A715EDE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E5E32FC-6908-4C20-A90A-932A715EDE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E5E32FC-6908-4C20-A90A-932A715EDE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847A2863-CD2C-4DE0-892C-1DAB0ECFBDE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847A2863-CD2C-4DE0-892C-1DAB0ECFBDE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847A2863-CD2C-4DE0-892C-1DAB0ECFBDE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847A2863-CD2C-4DE0-892C-1DAB0ECFBDE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{7F2E6165-8ED9-4CB7-A78E-CDEBB6AD0F6A} = {68F5BDD0-46D1-4EE5-BF7F-3B7EEFE56709}
 		{BB009C9C-C4E5-468E-B275-A2DDB81EBE03} = {68F5BDD0-46D1-4EE5-BF7F-3B7EEFE56709}
 		{4E5E32FC-6908-4C20-A90A-932A715EDE52} = {68F5BDD0-46D1-4EE5-BF7F-3B7EEFE56709}
+		{847A2863-CD2C-4DE0-892C-1DAB0ECFBDE3} = {68F5BDD0-46D1-4EE5-BF7F-3B7EEFE56709}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {459D7D1B-1604-4C57-B63D-A2E0ADD839BC}
