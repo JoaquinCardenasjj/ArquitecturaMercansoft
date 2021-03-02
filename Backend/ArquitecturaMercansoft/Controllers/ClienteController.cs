@@ -15,7 +15,7 @@ using Transversal.Transversal;
 
 namespace ArquitecturaMercansoft.Controllers
 {
-
+	// Prueba git 
     [Route("api/[controller]")]
     [ApiController]
     [SecurityTokenFilter]
