@@ -1,0 +1,18 @@
+2021-03-02 08:48:08.929 -05:00 [ERR] Error encontrado
+System.InvalidOperationException: No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, IDbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DataAccess.ClienteDAL.ClienteDAL.ConsultarCliente() in C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\DataAccess\ClienteDAL\ClienteDAL.cs:line 30
+   at Business.ClienteBI.ClienteBI.ConsultarCliente(Response`1 response) in C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 28
+2021-03-02 09:22:27.013 -05:00 [ERR] Error encontrado
+System.NotImplementedException: The method or operation is not implemented.
+   at DataAccess.ClienteDAL.ClienteDAL.EditarCliente(ClienteDTO input) in C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\DataAccess\ClienteDAL\ClienteDAL.cs:line 41
+   at Business.ClienteBI.ClienteBI.EditarCliente(ClienteDTO input, RegisterResponse response) in C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 47
