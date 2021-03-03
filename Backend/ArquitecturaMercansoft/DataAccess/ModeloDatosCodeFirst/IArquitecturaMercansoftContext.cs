@@ -15,5 +15,6 @@ namespace DataAccess.ModeloDatosCodeFirst
         DbSet<Factura> Facturas { get; set; }        
         DbSet<Producto> Productos { get; set; }
         DbSet<Orden> Ordenes { get; set; }
+        
     }
 }
