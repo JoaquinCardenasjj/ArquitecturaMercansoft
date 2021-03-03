@@ -33,7 +33,7 @@ namespace ArquitecturaMercansoft.Controllers
         public IActionResult ConsultarCliente()
         {
             Response<List<ClienteDTO>> response = new Response<List<ClienteDTO>>();
-            response = this._clienteBi.ConsultarCliente(response);
+            this._clienteBi.ConsultarCliente(response);
             return Ok(response);
         }
         [HttpPost]
@@ -48,7 +48,6 @@ namespace ArquitecturaMercansoft.Controllers
         [Route("editar")]
         public IActionResult EditarCliente(ClienteDTO input)
         {
-
             RegisterResponse response = new RegisterResponse();
             this._clienteBi.EditarCliente(input, response);
             return Ok(response);

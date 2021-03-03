@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj": {}
+    "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj": {
+    "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
+        "projectUniqueName": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
         "projectName": "Microservicioprueba2",
-        "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
+        "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
         "packagesPath": "C:\\Users\\jcardenasp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Microservicioprueba2\\obj\\",
+        "outputPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

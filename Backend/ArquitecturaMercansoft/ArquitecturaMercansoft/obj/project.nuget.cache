@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A1X4PtUXmU+0Sa/ollenDZESw2eNmaVzwSEOh3DzkJ+AYVJ1g31fCDS5oS6yTTw3LGtFTdwyxrTKFiQ1iJmhUA==",
+  "dgSpecHash": "lf6h6GnkzhNXpfg3ZNm/KGxX+Jp0xLl8u6c+p3ubkJDGrt6JGLEHC6zrTh6tnP+FuRzgg2c+Rd1QKPY0az/Www==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
+  "projectFilePath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jcardenasp\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jcardenasp\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",

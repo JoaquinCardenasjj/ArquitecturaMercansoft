@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\jcardenasp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
-                "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj"
+              "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
+                "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
+    "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
+        "projectUniqueName": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
         "projectName": "Transversal",
-        "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
+        "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
         "packagesPath": "C:\\Users\\jcardenasp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\obj\\",
+        "outputPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

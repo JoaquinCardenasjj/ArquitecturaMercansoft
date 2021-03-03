@@ -8922,11 +8922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
+      "projectUniqueName": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
       "projectName": "ArquitecturaMercansoft",
-      "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
+      "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
       "packagesPath": "C:\\Users\\jcardenasp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\obj\\",
+      "outputPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8947,14 +8947,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Business\\Business.csproj"
+            "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj"
             },
-            "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj"
+            "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj": {
+              "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj"
             }
           }
         }

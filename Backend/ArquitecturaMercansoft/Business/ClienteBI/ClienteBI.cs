@@ -44,7 +44,7 @@ namespace Business.ClienteBI
         {
             try
             {
-                response.IdResultado = this._clienteDal.EditarCliente(input);
+                response.CodigoResultado = this._clienteDal.EditarCliente(input);
                 response.Exitoso = true;
                 return response;
             }
@@ -52,7 +52,7 @@ namespace Business.ClienteBI
             {
                 response.Mensaje = e.Message;
                 response.Exitoso = false;
-                response.IdResultado = null;
+                response.CodigoResultado = null;
                 FileLogger.Logger(e);
             }
 
@@ -63,7 +63,7 @@ namespace Business.ClienteBI
         {
             try
             {
-                response.IdResultado = this._clienteDal.EliminarCliente(idCliente);
+                response.CodigoResultado = this._clienteDal.EliminarCliente(idCliente);
                 response.Exitoso = true;
                 return response;
             }
@@ -71,7 +71,7 @@ namespace Business.ClienteBI
             {
                 response.Mensaje = e.Message;
                 response.Exitoso = false;
-                response.IdResultado = null;
+                response.CodigoResultado = null;
                 FileLogger.Logger(e);
             }
 
@@ -82,7 +82,7 @@ namespace Business.ClienteBI
         {            
             try
             {                
-                response.IdResultado = this._clienteDal.RegistrarCliente(input);
+                response.CodigoResultado = this._clienteDal.RegistrarCliente(input);
                 response.Exitoso = true;
                 return response;
             }
@@ -90,7 +90,7 @@ namespace Business.ClienteBI
             {
                 response.Mensaje = e.Message;
                 response.Exitoso = false;
-                response.IdResultado = null;
+                response.CodigoResultado = null;
                 FileLogger.Logger(e);
             }
 

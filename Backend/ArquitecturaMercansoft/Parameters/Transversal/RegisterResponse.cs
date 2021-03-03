@@ -8,8 +8,8 @@ namespace Transversal.Transversal
 {
     public class RegisterResponse
     {
-        public string IdResultado { get; set; }
-        public string Mensaje { get; set; }
         public bool Exitoso { get; set; }
+        public string CodigoResultado { get; set; }
+        public string Mensaje { get; set; }
     }
 }

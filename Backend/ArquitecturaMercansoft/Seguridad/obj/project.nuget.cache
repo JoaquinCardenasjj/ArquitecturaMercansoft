@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JSs+sP70J6rcwgT3nHRtLy8czpDSWyMdJ52Ap0lMGzfeRi7XIPJPkY82BPkaGcYN+qgS5BS/ewmAdJFGRE0q7w==",
+  "dgSpecHash": "iBNBa6z/Q5TB3UcWfEoxS4PLEUrKKjeU58scQ3gee8oaCwG9sJ7p5owRVAJ+QX2iM4edP6ZfpSPzAnHOy/FtIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+  "projectFilePath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jcardenasp\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jcardenasp\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",

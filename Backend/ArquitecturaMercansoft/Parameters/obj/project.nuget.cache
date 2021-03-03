@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "umWPnpV2ZmEcqnvMXYPtyTj4P+shdtkCocdjYAQnpsimRCS7ErOk3z3xRaVgr6+ZZxw479P53SjXGZtw1Yx9LQ==",
+  "dgSpecHash": "fwSF1T7yvdh18TYDPhVuvSsucJOw8tW6SIIFNKQBiV7dOJC1lwReVcTAqT5ry1Wb1sdP3bgpaije7551nKosaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
+  "projectFilePath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jcardenasp\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jcardenasp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

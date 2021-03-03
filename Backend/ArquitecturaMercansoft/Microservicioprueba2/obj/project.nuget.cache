@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WaRgIQZpGyXQI9yWWVlclVXxuwSuLyTYavd/WBK31DUPn+MjTyGgWBTLTL+XWt7a+f2cUR7CYR5O0nzft7+riA==",
+  "dgSpecHash": "vCEspowfqdvjrsanC0G32SULuotVt/FJAYGe7nIPXH6Yv6DjRiiqH1o3ncwPw4yMe1VuY/SCroMJr0zgPXLfSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
+  "projectFilePath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jcardenasp\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\jcardenasp\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -14,12 +14,12 @@ namespace DataAccess.ClienteDAL
 {
     public class ClienteDAL : IClienteDAL
     {
-        protected arquitecturamercansoft2Context _dbContext;
+        //protected arquitecturamercansoft2Context _dbContext;
         protected ArquitecturaMercansoftContext _dbContextCodeFirst;
         private readonly IMapper _mapper;
-        public ClienteDAL(arquitecturamercansoft2Context dbContext, ArquitecturaMercansoftContext dbContextCodeFirst, IMapper mapper)
+        public ClienteDAL(ArquitecturaMercansoftContext dbContextCodeFirst, IMapper mapper)
         {
-            this._dbContext = dbContext;
+            // this._dbContext = dbContext;
             this._dbContextCodeFirst = dbContextCodeFirst;
             _mapper = mapper;
         }

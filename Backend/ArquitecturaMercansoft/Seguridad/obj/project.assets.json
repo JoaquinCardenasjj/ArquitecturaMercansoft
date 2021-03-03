@@ -8597,11 +8597,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+      "projectUniqueName": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
       "projectName": "Seguridad",
-      "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+      "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
       "packagesPath": "C:\\Users\\jcardenasp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Seguridad\\obj\\",
+      "outputPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8622,8 +8622,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\Business\\Business.csproj"
+            "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj"
             }
           }
         }
