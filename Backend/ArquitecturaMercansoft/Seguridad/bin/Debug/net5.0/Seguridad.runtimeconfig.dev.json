@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\jcardenasp\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\jcardenasp\\.nuget\\packages",
-      "C:\\Microsoft\\Xamarin\\NuGet"
+      "C:\\Users\\jbarriosa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jbarriosa\\.nuget\\packages"
     ]
   }
 }

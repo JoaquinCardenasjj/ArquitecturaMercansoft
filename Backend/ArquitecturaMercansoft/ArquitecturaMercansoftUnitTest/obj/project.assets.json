@@ -4623,25 +4623,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jcardenasp\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\jbarriosa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\ArquitecturaMercansoftUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\ArquitecturaMercansoftUnitTest.csproj",
       "projectName": "ArquitecturaMercansoftUnitTest",
-      "projectPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\ArquitecturaMercansoftUnitTest.csproj",
-      "packagesPath": "C:\\Users\\jcardenasp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcardenasp\\source\\repos\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\obj\\",
+      "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\ArquitecturaMercansoftUnitTest.csproj",
+      "packagesPath": "C:\\Users\\jbarriosa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jcardenasp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\jbarriosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
