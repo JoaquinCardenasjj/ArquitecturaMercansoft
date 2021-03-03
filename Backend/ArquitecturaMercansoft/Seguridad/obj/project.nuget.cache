@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "NzZLuLB0dCkL2sFwhzZ+zWKQSxugAUZK+fswzjZX1Wral2WTYHYGq5NEfJcLQ49E9BQZzMNtRcdi3ubAEI2/Rw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+=======
+  "dgSpecHash": "iBNBa6z/Q5TB3UcWfEoxS4PLEUrKKjeU58scQ3gee8oaCwG9sJ7p5owRVAJ+QX2iM4edP6ZfpSPzAnHOy/FtIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+>>>>>>> eb61fe40a7569d81004028d64a70e72423300beb
   "expectedPackageFiles": [
     "C:\\Users\\jbarriosa\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jbarriosa\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",

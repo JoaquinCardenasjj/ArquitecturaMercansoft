@@ -87,6 +87,7 @@ C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\ArquitecturaMercansoft\b
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\ArquitecturaMercansoft\bin\Debug\net5.0\Seguridad.dll
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\ArquitecturaMercansoft\bin\Debug\net5.0\Seguridad.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\bin\Debug\net5.0\appsettings.json
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\bin\Debug\net5.0\Transversal.exe
@@ -176,6 +177,8 @@ C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\Arquitectu
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\obj\Debug\net5.0\ArquitecturaMercansoft.pdb
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\obj\Debug\net5.0\ArquitecturaMercansoft.genruntimeconfig.cache
 =======
+=======
+>>>>>>> eb61fe40a7569d81004028d64a70e72423300beb
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\bin\Debug\net5.0\Transversal.exe
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\bin\Debug\net5.0\appsettings.json
@@ -264,4 +267,7 @@ C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\Arquitect
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\obj\Debug\net5.0\ref\ArquitecturaMercansoft.dll
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\obj\Debug\net5.0\ArquitecturaMercansoft.pdb
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\ArquitecturaMercansoft\obj\Debug\net5.0\ArquitecturaMercansoft.genruntimeconfig.cache
+<<<<<<< HEAD
+>>>>>>> eb61fe40a7569d81004028d64a70e72423300beb
+=======
 >>>>>>> eb61fe40a7569d81004028d64a70e72423300beb

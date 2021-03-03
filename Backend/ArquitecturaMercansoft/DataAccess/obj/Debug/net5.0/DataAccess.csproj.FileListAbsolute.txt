@@ -88,6 +88,7 @@ C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\DataAccess\bin\Debug\net
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\DataAccess\bin\Debug\net5.0\Transversal.dll
 C:\Users\jcardenasp\source\repos\ArquitecturaMercansoft\DataAccess\bin\Debug\net5.0\Transversal.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\bin\Debug\net5.0\Transversal.exe
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\bin\Debug\net5.0\DataAccess.exe
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
@@ -178,6 +179,8 @@ C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\Arquitectu
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 C:\Users\jbarriosa\Documents\proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
 =======
+=======
+>>>>>>> eb61fe40a7569d81004028d64a70e72423300beb
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\bin\Debug\net5.0\Transversal.exe
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\bin\Debug\net5.0\DataAccess.exe
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
@@ -267,4 +270,7 @@ C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\Arquitect
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 C:\Users\jcardenasp\Documents\Proyectos\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
+<<<<<<< HEAD
+>>>>>>> eb61fe40a7569d81004028d64a70e72423300beb
+=======
 >>>>>>> eb61fe40a7569d81004028d64a70e72423300beb
