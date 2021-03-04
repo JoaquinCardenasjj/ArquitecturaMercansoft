@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Transversal.DTOS;
 using DataAccess.ModeloDatosCodeFirst;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.ClienteDAL
 {
@@ -27,7 +28,7 @@ namespace DataAccess.ClienteDAL
         public List<ClienteDTO> ConsultarCliente()
         {
             List<ClienteDTO> listaDto = new List<ClienteDTO>();
-            var listaClienteEntitie = this._dbContextCodeFirst.Clientes.ToList();
+            var listaClienteEntitie = this._dbContextCodeFirst.Clientes.AsNoTracking().ToList();
             listaClienteEntitie.ForEach(d => this.ConvertListaCliente(listaDto, d));
             return listaDto;
         }
@@ -38,18 +39,24 @@ namespace DataAccess.ClienteDAL
         }
         public string EditarCliente(ClienteDTO input)
         {
-            var cliente = _mapper.Map<Cliente>(input);
-            this._dbContextCodeFirst.Clientes.Update(cliente);
+            var clienteDTO=_mapper.Map<Cliente>(input);
+            var clienteConsultado = this._dbContextCodeFirst.Clientes.Find(input.IdCliente);
+            var cliente = _mapper.Map<Cliente, Cliente>(clienteDTO, clienteConsultado);                        
             this._dbContextCodeFirst.SaveChanges();
             return cliente.IdCliente.ToString();
         }
-
+        public Cliente ConvertDtoToClienteExist(ClienteDTO clienteDto, Cliente cliente)
+        {
+            cliente.Activo = clienteDto.Activo;
+            cliente.Eliminado = clienteDto.Eliminado;
+            cliente.Nombre = clienteDto.Nombre;            
+            return cliente;
+        }
         public string EliminarCliente(int idCliente)
         {
             var cliente = this._dbContextCodeFirst.Clientes.Find(idCliente);
             cliente.Eliminado = true;
-            // this._dbContextCodeFirst.Clientes.Remove(cliente);
-            this._dbContextCodeFirst.Clientes.Update(cliente);
+            // this._dbContextCodeFirst.Clientes.Remove(cliente);            
             this._dbContextCodeFirst.SaveChanges();
             return cliente.IdCliente.ToString();
         }
