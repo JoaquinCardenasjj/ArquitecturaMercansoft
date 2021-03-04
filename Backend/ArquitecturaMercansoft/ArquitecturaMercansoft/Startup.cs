@@ -84,7 +84,7 @@ namespace ArquitecturaMercansoft
                          .AllowAnyMethod()
                          .AllowAnyHeader());
 
-            app.UseMvc();
+            
             app.UseExceptionHandler("/error");
             app.UseRouting();
 

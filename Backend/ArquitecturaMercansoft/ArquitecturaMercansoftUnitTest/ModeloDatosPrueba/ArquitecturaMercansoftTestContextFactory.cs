@@ -22,9 +22,9 @@ namespace ArquitecturaMercansoftUnitTest.ModeloDatosPrueba
             context.Database.EnsureCreated();
 
             context.Clientes.AddRange(new[] {
-                new Cliente { IdCliente = 1, Nombre= "Adam", Identificacion="123456",TipoIdentificacion=2,Activo=true ,Eliminado=true},
-                new Cliente { IdCliente = 2, Nombre = "Jason", Identificacion="654123",TipoIdentificacion=1,Activo=true ,Eliminado=false},
-                new Cliente { IdCliente = 3, Nombre = "Brendan", Identificacion="789456",TipoIdentificacion=3,Activo=false,Eliminado=true },
+                new Cliente {  Nombre= "Adam", Identificacion="123456",TipoIdentificacion=2,Activo=true ,Eliminado=true},
+                new Cliente {  Nombre = "Jason", Identificacion="654123",TipoIdentificacion=1,Activo=true ,Eliminado=false},
+                new Cliente {  Nombre = "Brendan", Identificacion="789456",TipoIdentificacion=3,Activo=false,Eliminado=true },
             });
 
             context.SaveChanges();
