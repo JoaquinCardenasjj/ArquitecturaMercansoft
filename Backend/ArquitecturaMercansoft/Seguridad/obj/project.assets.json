@@ -8590,11 +8590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+      "projectUniqueName": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
       "projectName": "Seguridad",
-      "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
+      "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj",
       "packagesPath": "C:\\Users\\jbarriosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\obj\\",
+      "outputPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jbarriosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8611,8 +8611,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj"
+            "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj": {
+              "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj"
             }
           }
         }

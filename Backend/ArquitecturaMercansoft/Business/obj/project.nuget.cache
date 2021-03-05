@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ZjG5MYA/2fOxjDJ022D5krg4HcP7TogXc333Acd4qOSshA83+7QbNjsMPfnVwsZlgZY509Vf3bcwCz9hfBzMQ==",
+  "dgSpecHash": "uQkFiZknc8Can9DSEOyWDvjiCMw63srlEIVGPRndLKLLDi5jfbxLVH/qJ92avNPzssFAYRtFgcwuwLPjeyTmhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj",
+  "projectFilePath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jbarriosa\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\jbarriosa\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",

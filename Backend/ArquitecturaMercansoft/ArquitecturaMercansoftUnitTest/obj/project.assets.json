@@ -8346,11 +8346,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\ArquitecturaMercansoftUnitTest.csproj",
+      "projectUniqueName": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\ArquitecturaMercansoftUnitTest.csproj",
       "projectName": "ArquitecturaMercansoftUnitTest",
-      "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\ArquitecturaMercansoftUnitTest.csproj",
+      "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\ArquitecturaMercansoftUnitTest.csproj",
       "packagesPath": "C:\\Users\\jbarriosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\obj\\",
+      "outputPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoftUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jbarriosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8367,11 +8367,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
+            "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
-              "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj"
+            "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj": {
+              "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj"
             }
           }
         }

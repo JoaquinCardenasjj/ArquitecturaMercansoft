@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj": {}
+    "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj": {
+    "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
+        "projectUniqueName": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
         "projectName": "Microservicioprueba2",
-        "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
+        "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
         "packagesPath": "C:\\Users\\jbarriosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\obj\\",
+        "outputPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jbarriosa\\AppData\\Roaming\\NuGet\\NuGet.Config",

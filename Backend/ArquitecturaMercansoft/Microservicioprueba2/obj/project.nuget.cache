@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p10Hfkot+bNVNxIxQ3nKHdtab55/eRhD4GR59WPeRjfu0Ah1PprR3MlqD0zjYuqdtr4vARNLEkcXWMYwe89KPQ==",
+  "dgSpecHash": "SbyWDIfvcA2RHyjmom9EXerOgeqYZ6o2np+CRZxwB2jD0oHv6HA+02UEojaSmqvanAnMsppszHmvgvIXWIphhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
+  "projectFilePath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Microservicioprueba2\\Microservicioprueba2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jbarriosa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\jbarriosa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

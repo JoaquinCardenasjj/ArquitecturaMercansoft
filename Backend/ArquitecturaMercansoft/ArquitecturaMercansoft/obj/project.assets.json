@@ -8915,11 +8915,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
+      "projectUniqueName": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
       "projectName": "ArquitecturaMercansoft",
-      "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
+      "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\ArquitecturaMercansoft.csproj",
       "packagesPath": "C:\\Users\\jbarriosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\obj\\",
+      "outputPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\ArquitecturaMercansoft\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jbarriosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8936,14 +8936,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj"
+            "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj": {
+              "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Business\\Business.csproj"
             },
-            "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
+            "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj"
+            "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj": {
+              "projectPath": "D:\\.net\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Seguridad\\Seguridad.csproj"
             }
           }
         }
