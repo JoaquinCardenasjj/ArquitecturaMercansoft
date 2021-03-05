@@ -13,7 +13,8 @@ namespace Transversal.AutoMapper
         {
             CreateMap<Cliente, ClienteDTO>();
 
-            CreateMap<ClienteDTO, Cliente>();            
+            CreateMap<ClienteDTO, Cliente>();
+            CreateMap<Cliente, Cliente>();
             // Se pueden agregar cualquier numero de maps
         }
 
