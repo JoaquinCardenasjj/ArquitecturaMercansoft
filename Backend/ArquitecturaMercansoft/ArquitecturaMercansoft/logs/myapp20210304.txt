@@ -1,0 +1,20 @@
+2021-03-04 21:42:56.120 -05:00 [ERR] Error encontrado
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataAccess.ClienteDAL.ClienteDAL.EliminarCliente(Int32 idCliente) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\ClienteDAL\ClienteDAL.cs:line 58
+   at Business.ClienteBI.ClienteBI.EliminarCliente(Int32 idCliente, RegisterResponse response) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 66
+2021-03-04 21:45:17.510 -05:00 [ERR] Error encontrado
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataAccess.ClienteDAL.ClienteDAL.EliminarCliente(Int32 idCliente) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\ClienteDAL\ClienteDAL.cs:line 58
+   at Business.ClienteBI.ClienteBI.EliminarCliente(Int32 idCliente, RegisterResponse response) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 66
+2021-03-04 21:50:27.909 -05:00 [ERR] Error encontrado
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataAccess.ClienteDAL.ClienteDAL.EliminarCliente(Int32 idCliente) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\ClienteDAL\ClienteDAL.cs:line 58
+   at Business.ClienteBI.ClienteBI.EliminarCliente(Int32 idCliente, RegisterResponse response) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 66
+2021-03-04 21:53:04.069 -05:00 [ERR] Error encontrado
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataAccess.ClienteDAL.ClienteDAL.EliminarCliente(Int32 idCliente) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\ClienteDAL\ClienteDAL.cs:line 58
+   at Business.ClienteBI.ClienteBI.EliminarCliente(Int32 idCliente, RegisterResponse response) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 66
+2021-03-04 22:52:57.266 -05:00 [ERR] Error encontrado
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DataAccess.ClienteDAL.ClienteDAL.EliminarCliente(Int32 idCliente) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\DataAccess\ClienteDAL\ClienteDAL.cs:line 58
+   at Business.ClienteBI.ClienteBI.EliminarCliente(Int32 idCliente, RegisterResponse response) in D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Business\ClienteBI\ClienteBI.cs:line 66

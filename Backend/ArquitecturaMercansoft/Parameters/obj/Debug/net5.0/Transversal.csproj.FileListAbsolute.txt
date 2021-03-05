@@ -7,7 +7,6 @@ D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Parameters\bin\Deb
 D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Parameters\bin\Debug\net5.0\Transversal.pdb
 D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Parameters\bin\Debug\net5.0\AutoMapper.dll
 D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Parameters\bin\Debug\net5.0\Serilog.dll
-D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Parameters\obj\Debug\net5.0\Transversal.csprojAssemblyReference.cache
 D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Parameters\obj\Debug\net5.0\Transversal.GeneratedMSBuildEditorConfig.editorconfig
 D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Parameters\obj\Debug\net5.0\Transversal.AssemblyInfoInputs.cache
 D:\.net\ArquitecturaMercansoft\Backend\ArquitecturaMercansoft\Parameters\obj\Debug\net5.0\Transversal.AssemblyInfo.cs
