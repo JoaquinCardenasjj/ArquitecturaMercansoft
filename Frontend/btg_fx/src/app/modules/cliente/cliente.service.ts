@@ -22,16 +22,21 @@ export class ClienteService {
   }
 
   createCliente(objeTosend: Cliente): Observable<any> {
-    let params = "";
-//    const { filter, properties } = objeTosend;
-    params = "1";
-
-//    let body  = JSON.parse(objeTosend);
-    
     let headers = new HttpHeaders().set("Content-Type", "application/json");
-    return this.http.post(this.serverUrl  + '/Cliente/registrar', objeTosend, { headers: headers });
+    return this.http.post(this.serverUrl + '/Cliente/registrar', objeTosend, { headers: headers });
   }
 
-  
+  updateCliente(objeTosend: Cliente): Observable<any> {
+    let headers = new HttpHeaders().set("Content-Type", "application/json");
+    return this.http.put(this.serverUrl + '/Cliente/editar', objeTosend, { headers: headers });
+  }
+
+  deleteCliente(objeTosend: Cliente) {
+    let idClient = objeTosend.idCliente
+    console.log("-||--**||***QUE TRAJO idClient", idClient)
+      
+    let headers = new HttpHeaders().set("Content-Type", "application/json");
+    return this.http.post(this.serverUrl + '/Cliente/eliminar', idClient, { headers: headers });
+  }
 
 }

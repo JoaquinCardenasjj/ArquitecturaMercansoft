@@ -16,6 +16,7 @@ export class ClienteComponent implements OnInit {
   public showListado: boolean = true;
   public showForm: boolean = false;
   public showBtnActualizar: Boolean = false;
+  public showBtnAdicionar: Boolean = true;
   public eliminado: boolean = true;
   public activo: boolean = true;
   public etiquetaListado = "Listado de Clientes";
@@ -38,21 +39,27 @@ export class ClienteComponent implements OnInit {
   public acts: SelItem[] = this.mockedItems;
   public firms: SelItem[] = this.mockedItems;
 
-  constructor(public _clientService: ClientService, public clienteService: ClienteService) {
-    
-    this.cliente = {
+  constructor(public _clientService: ClientService, 
+              public clienteService: ClienteService) { 
+    /*this.cliente = {
       documento: "",
       nombre: "",
-    };
+    };*/
   }
 
-  onClientSelected(selected) {//: Cliente
-
+  onClientSelected(selected: Cliente) {//
     this.cliente = selected;
     this.IsWaitings = true;
+    
+    this.detaForm.controls["id"].setValue(selected.idCliente);
+    this.detaForm.controls["act_id"].setValue(selected.tipoIdentificacion);
+    this.detaForm.controls["identificacion"].setValue(selected.identificacion);
+    this.detaForm.controls["name"].setValue(selected.nombre);
+    this.detaForm.controls["activo"].setValue(selected.activo);
+    this.detaForm.controls["eliminado"].setValue(selected.eliminado);
 
-    /*this.detaForm.controls["act_id"].setValue(selected.tipoIdentificacion);
-    this.detaForm.controls["name"].setValue(selected.name); */
+    this.showBtnActualizar = true;
+    this.showBtnAdicionar  = false;
   }
 
   /*actionAdicionar() {
@@ -62,6 +69,8 @@ export class ClienteComponent implements OnInit {
 
   procesarRolAdd(rolSelected: any ){
     this.detaForm.controls['act_id'].setValue(rolSelected.value);
+    this.showBtnAdicionar = true;
+    this.detaForm.controls["eliminado"].setValue(false);
   }
 
   /*procesarFirma(rolSelected: any ){
@@ -73,15 +82,14 @@ export class ClienteComponent implements OnInit {
 //      id: this.application.id,
         tipoIdentificacion: this.detaForm.controls["act_id"].value,
         identificacion: this.detaForm.controls["identificacion"].value,
-        name: this.detaForm.controls["name"].value,
+        nombre: this.detaForm.controls["name"].value,
         activo: this.detaForm.controls["activo"].value,
         eliminado: this.detaForm.controls["eliminado"].value
     };
-
-    console.log("---*****TTTTT//////", newClient)
-    
+    console.log("---*****newClientTTTTTnewClient//////", newClient)  
     this.clienteService.createCliente(newClient).subscribe(async () => {
-      
+      Swal.fire('Cliente', 'Agregado correctamente.', 'success');
+      this.detaForm.reset();
     });
   }
   /*this.showForm = false;
@@ -92,33 +100,50 @@ export class ClienteComponent implements OnInit {
     this.showListado = true;
   }
 
-  actionActualizar(){}
+  actionActualizar(){
+    let client: Cliente = {
+      idCliente: this.detaForm.controls["id"].value, //this.cliente.idCliente,
+      tipoIdentificacion: this.detaForm.controls["act_id"].value,
+      identificacion: this.detaForm.controls["identificacion"].value,
+      nombre: this.detaForm.controls["name"].value,
+      activo: this.detaForm.controls["activo"].value,
+      eliminado: this.detaForm.controls["eliminado"].value
+    };
+    
+    this.clienteService.updateCliente(client).subscribe((reponse) => {
+      Swal.fire('Additions', 'Actualizado correctamente.', 'success');
+      this.detaForm.reset();
+      this.showBtnActualizar = false;
+      this.showBtnAdicionar = true;
+    });
+  }
 
   eliminar() {
-    /*Swal.fire({
-      title: "Realmente quieres eliminar la Applicación seleccionada?",
+    console.log("WWWW+++", this.cliente)
+    Swal.fire({
+      title: "¿Realmente quieres eliminar el Cliente?",
       showCancelButton: true,
       confirmButtonText: `Aceptar`,
       denyButtonText: `Cancelar`,
     }).then((result) => {
       if (result.isConfirmed) {
-        this.applicationService
-          .deleteApplication(this.application.id)
+        this.clienteService
+          .deleteCliente(this.cliente)
           .subscribe((res) => {
             this.showForm = false;
-            this.aplicacionForm.reset();
+            this.detaForm.reset();
             Swal.fire(
               "Operación exitosa",
               "Aplicación Eliminada Correctamente!.",
               "success"
             );
-            this.fetchApplications();
+//            this.listClientes();
             this.showListado = true;
-            this.showContent = true;
+//            this.showContent = true;
           });
       } else if (result.isDenied) {
       }
-    });*/
+    });
   }
 
   listClientes = (obj?) => {
@@ -132,7 +157,8 @@ export class ClienteComponent implements OnInit {
 
   ngOnInit() {
     this.detaForm = new FormGroup({
-      _id: new FormControl("", [Validators.maxLength(50)]),
+//      _id: new FormControl("", [Validators.maxLength(50)]),
+      id: new FormControl("", [ Validators.maxLength(50)]),
 
       act_id: new FormControl("", [
         Validators.required,

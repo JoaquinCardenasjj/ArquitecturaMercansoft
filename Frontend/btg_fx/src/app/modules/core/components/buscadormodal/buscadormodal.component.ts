@@ -39,6 +39,7 @@ export class BuscadormodalComponent implements OnInit {
 
     let resultString = [];
     propiedades.forEach((propiedad) => {
+      console.log("-||--*****PERO QUE propiedad TRAJO", propiedad)
       if (this.defaultObjValue.hasOwnProperty(propiedad)) {
         resultString.push(this.defaultObjValue[propiedad]);
       }
@@ -129,7 +130,7 @@ export class DialogOverviewExample {
     this.loading = true;
     if (this.filters) {
       this.service.getAll(this.filters).subscribe((res) => {
-        this.dataSource = res.data[Object.keys(res.data)[0]];
+        this.dataSource = res.objetoResultado;
         this.loading = false;
       });
     } else {

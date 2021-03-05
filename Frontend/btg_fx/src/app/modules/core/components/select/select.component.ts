@@ -17,7 +17,7 @@ export class SelectComponent implements OnInit {
   ngOnInit() {
     const exist = this.data.some((r: { value: string }) => r.value == "");
     if (!exist) {
-      this.data.push({ value: "", nombre: "NA" });
+      this.data.push({ value: "0", nombre: "NA" });
     }
   }
 

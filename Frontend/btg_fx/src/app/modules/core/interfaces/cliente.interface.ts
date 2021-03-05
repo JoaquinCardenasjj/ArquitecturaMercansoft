@@ -1,8 +1,8 @@
 export interface Cliente {
-    id?: string;
+    idCliente?: string;
     tipoIdentificacion?: string;
     identificacion?: string;
-    name?: string;
+    nombre?: string;
     activo?: boolean;
     eliminado?: boolean;
     /*public int IdCliente { get; set; }
