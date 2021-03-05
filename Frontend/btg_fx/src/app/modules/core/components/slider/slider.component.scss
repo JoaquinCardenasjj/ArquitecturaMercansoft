@@ -1,0 +1,53 @@
+/* variables.scss */
+@import '../../../../../assets/scss/partials/base.scss';
+@import '../../../../../assets/scss/partials/variables.scss';
+
+label {
+  margin-bottom: .3rem;
+  color: $primary-color;
+  min-width: 30px;
+}
+
+.mat-form-field-infix {
+  padding: 0.4em 0;
+  border-top: 0.6em solid transparent;
+}
+
+.h2 {
+  margin: 0 8px 16px;
+}
+
+.slider-label {
+  width: 40px;;
+}
+
+.section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.mat-slider-horizontal {
+  width: 400px;
+  min-width: 400px;
+}
+
+.mat-slider-vertical {
+  height: 300px;
+}
+
+.mat-card + .mat-card {
+  margin-top: 8px;
+}
+
+.result-card h2 {
+  margin: 0 8px;
+}
+
+.mat-form-field-label-wrapper {
+  top: -0.84375em;
+  padding-top: 0.1em;
+}
+
+

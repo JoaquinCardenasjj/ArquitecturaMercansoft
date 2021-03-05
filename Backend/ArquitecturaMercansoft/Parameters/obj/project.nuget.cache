@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fwSF1T7yvdh18TYDPhVuvSsucJOw8tW6SIIFNKQBiV7dOJC1lwReVcTAqT5ry1Wb1sdP3bgpaije7551nKosaA==",
+  "dgSpecHash": "Ig9hy+Lyn+xs6gxfKh5LNT8U2y+wP70v7SbbpqGgZwS1+xDaLUYAyalvWlwdIT+ifhpRn1IkWLjoq9Xxmm6DSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jcardenasp\\Documents\\Proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
+  "projectFilePath": "C:\\Users\\jbarriosa\\Documents\\proyectos\\ArquitecturaMercansoft\\Backend\\ArquitecturaMercansoft\\Parameters\\Transversal.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jcardenasp\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\jcardenasp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\jcardenasp\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
-    "C:\\Users\\jcardenasp\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\jbarriosa\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\jbarriosa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\jbarriosa\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\jbarriosa\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

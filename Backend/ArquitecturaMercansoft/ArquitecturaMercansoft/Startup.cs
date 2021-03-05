@@ -33,12 +33,22 @@ namespace ArquitecturaMercansoft
         {
             Configuration = configuration;
         }
-
+        readonly string MyAllowSpecificOrigins = "*";
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4200",
+                                                          "http://www.contoso.com");
+                                  });
+            });
+
             services.AddControllers();
             services.AddTransient<IClienteBI, ClienteBI>();
             services.AddTransient<IClienteDAL, ClienteDAL>();
@@ -79,6 +89,7 @@ namespace ArquitecturaMercansoft
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ArquitecturaMercansoft v1"));
             }
+
             app.UseCors(builder => builder
                          .AllowAnyOrigin()
                          .AllowAnyMethod()
